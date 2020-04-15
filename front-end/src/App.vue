@@ -3,18 +3,19 @@
   <div class="header">
     <router-link to="/">
       <div class="logo">
-        <img src="/ordinary.png">
+        <img style="width:200px;height:200px;" src="https://images.vexels.com/media/users/3/134640/isolated/preview/f2755703f8a93785225a13be336ad9c1-laugh-crying-emoji-emoticon-by-vexels.png">
       </div>
     </router-link>
     <div class="title">
-      <h1>Museum of Ordinary Objects</h1>
+      <h1>A place for funny pictures
+      </h1>
     </div>
   </div>
   <div class="content">
     <router-view />
   </div>
   <div class="footer">
-    <router-link to="/admin">Admin</router-link>
+    <router-link to="/admin">Post a picture</router-link>
   </div>
 </div>
 </template>
@@ -36,8 +37,8 @@ body {
 .header {
   display: flex;
   padding: 10px 100px 0px 100px;
-  background-color: #5BDEFF;
-  color: #1C454F;
+  background-color: rgb(61, 41, 87);
+  color: rgb(178, 198, 252);
 }
 
 .title {

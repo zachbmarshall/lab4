@@ -1,9 +1,9 @@
 <template>
   <div class="admin">
-    <h1>The Admin Page!</h1>
+    <h1>Have a funny picture? Post it!</h1>
     <div class="heading">
       <div class="circle">1</div>
-      <h2>Add an Item</h2>
+      <h2>Select something to make everyone lol</h2>
     </div>
     <div class="add">
       <div class="form">
@@ -19,7 +19,7 @@
     </div>
     <div class="heading">
       <div class="circle">2</div>
-      <h2>Edit/Delete an Item</h2>
+      <h2>Something not very funny? Let us know!</h2>
     </div>
     <div class="edit">
       <div class="form">
@@ -39,7 +39,7 @@
         <img :src="findItem.path" />
       </div>
       <div class="actions" v-if="findItem">
-        <button @click="deleteItem(findItem)">Delete</button>
+        <button @click="deleteItem(findItem)">Report</button>
       </div>
     </div>
   </div>
